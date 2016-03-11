@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NumberTextView">
+        <attr name="MAX_JUG" format="integer" />
+        <attr name="MIN_JUG" format="integer" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".Garrafas">
+    <item android:id="@+id/new_simulation" android:title="@string/new_simulation"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/repeat_simulation" android:title="@string/repeat_simulation"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <!--<item android:id="@+id/end_simulation" android:title="@string/end_simulation"
+        android:orderInCategory="100" app:showAsAction="never" />-->
+    <item android:id="@+id/restart_simulation" android:title="@string/restart_simulation"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/stop_simulation" android:title="@string/stop_simulation"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

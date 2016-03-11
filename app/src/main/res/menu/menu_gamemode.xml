@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".GameMode">
+    <item android:id="@+id/instructions" android:title="@string/instructions"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/advanced_settings" android:title="@string/advanced_settings"
+        android:orderInCategory="100" app:showAsAction="never">
+        <menu >
+            <group android:id="@+id/gamemode_settings_group">
+                <item android:id="@+id/change_depth_limit" android:title="@string/change_depth_limit" />
+                <!--<item android:id="@+id/change_algorithm" android:title="@string/change_algorithm" />-->
+            </group>
+        </menu>
+    </item>
+
+</menu>
